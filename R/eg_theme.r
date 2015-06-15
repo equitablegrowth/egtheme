@@ -5,6 +5,7 @@ theme_eg <- function(base_size = 12,base_family="") {
         text =                  element_text(family = base_family, face = "plain",colour = "black", size = base_size,hjust = 0.5, vjust = 0.5, angle = 0, lineheight = 0.9),
         axis.text =             element_text(size = rel(0.8), colour = "black"),
         strip.text =            element_text(size = rel(0.8)),
+
         axis.line =             element_blank(),
         axis.text.x =           element_text(size=12,colour="black",family="Lato-Bla"),
         axis.text.y =           element_text(size=12,colour="black",family="Lato-Bla"),
@@ -13,7 +14,8 @@ theme_eg <- function(base_size = 12,base_family="") {
         axis.title.y =          element_text(size=12,colour="black",face="bold",family="Lato-Reg",angle=90,vjust=0.8),
         axis.ticks.length =     unit(0.15, "cm"),
         axis.ticks.margin =     unit(0.1, "cm"),
-        # legend.background =     element_rect(fill="#Fbfbfb", size=0), 
+
+        legend.background =     element_rect(fill="#Fbfbfb", size=0), 
         legend.margin =         unit(-.2, "cm"),
         legend.key =            element_rect(fill = 'transparent', size = 0),
         legend.key.size =       unit(1, "lines"),
@@ -26,14 +28,17 @@ theme_eg <- function(base_size = 12,base_family="") {
         legend.direction =      NULL,
         legend.justification =  "center",
         legend.box =            NULL,
+ 
         panel.background =      element_rect(fill="#eae7e5",size=0), 
         panel.border =          element_blank(),
         panel.grid.major =      element_line(colour="#ffffff",size=.15),
         panel.grid.minor =      element_blank(),
         panel.margin =          unit(0.25, "lines"),
+ 
         strip.background =      element_rect(fill = NA, colour = NA), 
         strip.text.x =          element_text(colour = "black", size = base_size * 0.8),
         strip.text.y =          element_text(colour = "black", size = base_size * 0.8),
+ 
         plot.background =       element_rect(fill="#Fbfbfb",size=0),
         plot.title =            element_text(face="bold",colour="#3C3C3C",size=20,family="Gulim"),
         plot.margin =           unit(c(.5, .5, .5, .7), "cm"),
