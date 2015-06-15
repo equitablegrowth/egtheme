@@ -10,10 +10,12 @@ theme_eg <- function(base_size = 12,base_family="") {
         axis.text.x =           element_text(size=12,colour="black",family="Lato Black"),
         axis.text.y =           element_text(size=12,colour="black",family="Lato-Black"),
         axis.ticks =            element_blank(),
+        axis.ticks.x =          element_line(colour="#ffffff",size=.25)
         axis.title.x =          element_text(size=12,colour="black",face="bold",family="Lato",vjust=-.2),
         axis.title.y =          element_text(size=12,colour="black",face="bold",family="Lato",angle=90,vjust=0.8),
         axis.ticks.length =     unit(0.15, "cm"),
         axis.ticks.margin =     unit(0.1, "cm"),
+        axis.line.y =           element_line(colour="#ffffff",size=.35)
 
         legend.background =     element_rect(fill="#ffffff", size=0), 
         legend.margin =         unit(-.2, "cm"),
@@ -31,7 +33,7 @@ theme_eg <- function(base_size = 12,base_family="") {
  
         panel.background =      element_rect(fill="#eae7e5",size=0), 
         panel.border =          element_blank(),
-        panel.grid.major =      element_line(colour="#ffffff",size=.15),
+        panel.grid.major =      element_line(colour="#ffffff",size=.25),
         panel.grid.minor =      element_blank(),
         panel.margin =          unit(0.25, "lines"),
  
@@ -40,7 +42,7 @@ theme_eg <- function(base_size = 12,base_family="") {
         strip.text.y =          element_text(colour = "black", size = base_size * 0.8),
  
         plot.background =       element_rect(fill="#eae7e5",size=0),
-        plot.title =            element_text(face="bold",colour="#3C3C3C",size=20,family="Gulim"),
+        plot.title =            element_text(face="bold",colour="#3C3C3C",size=20,family="Lato"),
         plot.margin =           unit(c(.5, .5, .5, .7), "cm"),
 
         complete = TRUE
