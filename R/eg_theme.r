@@ -1,4 +1,4 @@
-theme_nyloncalc <- function(base_size = 12,base_family="") {
+theme_eg <- function(base_size = 12,base_family="") {
   theme(
         line =                  element_line(colour = "black", size = 0.5, linetype = 1,lineend = "butt"),
         rect =                  element_rect(fill = "white", colour = "black", size = 0.5, linetype = 1),
