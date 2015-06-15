@@ -15,7 +15,7 @@ theme_eg <- function(base_size = 12,base_family="") {
         axis.title.y =          element_text(size=12,colour="black",face="bold",family="Lato",angle=90,vjust=0.8),
         axis.ticks.length =     unit(0.15, "cm"),
         axis.ticks.margin =     unit(0.1, "cm"),
-        axis.line.y =           element_line(colour="#ffffff",size=.35),
+        axis.line.y =           element_line(colour="#ffffff",size=.85),
 
         legend.background =     element_rect(fill="#ffffff", size=0), 
         legend.margin =         unit(-.2, "cm"),
