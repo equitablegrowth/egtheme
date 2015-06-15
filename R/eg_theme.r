@@ -13,7 +13,7 @@ theme_eg <- function(base_size = 12,base_family="") {
         axis.title.y =          element_text(size=12,colour="black",face="bold",family="Lato-Reg",angle=90,vjust=0.8),
         axis.ticks.length =     unit(0.15, "cm"),
         axis.ticks.margin =     unit(0.1, "cm"),
-        legend.background =     element_rect(fill="#Fbfbfb", size=0), 
+        # legend.background =     element_rect(fill="#Fbfbfb", size=0), 
         legend.margin =         unit(-.2, "cm"),
         legend.key =            element_rect(fill = 'transparent', size = 0),
         legend.key.size =       unit(1, "lines"),
