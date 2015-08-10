@@ -9,7 +9,6 @@ theme_eg <- function(base_size = 12,base_family="") {
         axis.line =             element_blank(),
         axis.text.x =           element_text(size=12,colour="black",family="Lato"),
         axis.text.y =           element_text(size=12,colour="black",family="Lato"),
-        axis.ticks =            element_blank(),
         axis.ticks.x =          element_line(colour="#ffffff",size=.25),
         axis.title.x =          element_text(size=12,colour="black",face="bold",family="Lato",vjust=-.2),
         axis.title.y =          element_text(size=12,colour="black",face="bold",family="Lato",angle=90,vjust=0.8),
@@ -33,7 +32,8 @@ theme_eg <- function(base_size = 12,base_family="") {
  
         panel.background =      element_rect(colour="#eae7e5",fill="#eae7e5",size=1), 
         panel.border =          element_blank(),
-        panel.grid.major =      element_line(colour="#ffffff",size=.25),
+        panel.grid.major.y =    element_line(colour="#ffffff",size=.25),
+        panel.grid.major.x =    element_blank(),
         panel.grid.minor =      element_blank(),
         panel.margin =          unit(0.25, "lines"),
  
