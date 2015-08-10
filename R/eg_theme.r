@@ -31,7 +31,7 @@ theme_eg <- function(base_size = 12,base_family="") {
         legend.justification =  "center",
         legend.box =            NULL,
  
-        panel.background =      element_rect(fill="#eae7e5",size=1), 
+        panel.background =      element_rect(colour="#eae7e5",fill="#eae7e5",size=1), 
         panel.border =          element_blank(),
         panel.grid.major =      element_line(colour="#ffffff",size=.25),
         panel.grid.minor =      element_blank(),
