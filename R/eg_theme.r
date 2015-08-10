@@ -37,7 +37,7 @@ theme_eg <- function(base_size = 12,base_family="") {
         panel.grid.minor =      element_blank(),
         panel.margin =          unit(0.25, "lines"),
  
-        strip.background =      element_rect(fill = NA, colour = NA), 
+        strip.background =      element_rect(fill = '#eae7e5', colour = '#eae7e5'), 
         strip.text.x =          element_text(colour = "black", size = base_size * 0.8),
         strip.text.y =          element_text(colour = "black", size = base_size * 0.8),
  
